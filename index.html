@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="form-container">
+        <h2>REGISTRATION FORM</h2>
+        <form action="" onsubmit="return validateFrom()">
+            <input type="text" id="username" placeholder="user name"><br>
+            <p id="userError" class="error"></p>
+            <input type="password" id="password" placeholder="password"><br>
+            <p id="passError" class="error"></p>
+            <input type="number"id="number"placeholder="phone no."><br>
+            <p id="numError" class="error"></p>
+            <input type="email"id="email"placeholder="Enter your mail"><br>
+            <p id="mailError"class="error"></p>
+            <input type="number" id="anumber" placeholder="Enter your aadhar no."><br>
+            <p id="aadharError"class="error"></p>
+            <input type="submit">
+           
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
